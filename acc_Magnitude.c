@@ -35,7 +35,7 @@ uint32_t isqrt(uint32_t x)
 *   for speed reason all the computation is made on 32 bits data
 *   -1 is return in case of error or overflow
 */
-int32_t acc_Magnitude(accelData_t* accelData)
+int32_t acc_Magnitude(const accelData_t* accelData)
 {
     uint32_t x,y,z,tmpSum;
 
