@@ -10,5 +10,5 @@ typedef struct accelData_s
     int32_t z;
 }accelData_t;
 
-int32_t acc_Magnitude(accelData_t* accelData);
+int32_t acc_Magnitude(const accelData_t* accelData);
 #endif // ACC_MAGNITUDE_H_INCLUDED
